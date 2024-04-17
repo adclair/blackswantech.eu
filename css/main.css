@@ -406,9 +406,9 @@ input.input100 {
 /*---------------------------------------------*/
 .how-btn {
   padding: 10px 20px;
-  background-color: transparent;
-  border-radius: 25px;
-  border: 2px solid #fff;
+  background-color: transparent; /* Fond transparent pour le bouton */
+  border-radius: 25px; /* Coins arrondis */
+  border: 2px solid #fff; /* Bordure blanche */
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -423,21 +423,18 @@ input.input100 {
   height: 100%;
   top: 0;
   left: 0;
-  background: #7918f2;
-  background: -webkit-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
-  background: -o-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
-  background: -moz-linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
-  background: linear-gradient(45deg, #ac32e4, #7918f2, #4801ff);
-  -webkit-transition: all 0.4s;
+  background-color: #d3d3d3; /* Gris clair pour l'effet de survol */
+  -webkit-transition: all 0.4s; /* Transition douce pour les navigateurs */
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-  opacity: 0;
+  opacity: 0; /* Initialement invisible */
 }
 
-.how-btn:hover:before {
-  opacity: 1;
+.how-btn:hover::before {
+  opacity: 1; /* Pleinement visible au survol */
 }
+
 
 /*---------------------------------------------*/
 .how-btn1 {

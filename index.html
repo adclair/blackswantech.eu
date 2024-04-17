@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site en Construction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* Style de base pour le corps de la page */
         body {
-            background-color: #f8f8f7; /* Couleur de fond claire */
-            color: #333; /* Couleur de texte sombre pour le contraste */
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Polices Apple-like */
-            font-weight: bold; /* Texte en gras */
-            font-size: 40px; /* Taille de la police plus modérée */
-            text-align: center; /* Centrage du texte */
+            background-color: #f8f8f7;
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
             margin: 0;
             padding: 0;
             height: 100vh;
@@ -21,24 +21,48 @@
             justify-content: center;
             align-items: center;
         }
-
-        /* Style pour l'image du logo */
         img {
-            width: 1400px; /* Taille plus petite du logo */
-            height: auto; /* Garder les proportions de l'image */
-            margin-bottom: 20px; /* Espace entre le logo et le texte */
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
         }
-
-        /* Texte personnalisé pour le statut du site */
-        p {
-            margin: 0;
-            padding: 20px;
-            font-size: 20px; /* Taille du texte pour le paragraphe */
+        .content {
+            margin-top: 20px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        input[type="email"], button {
+            font-size: 18px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        button {
+            cursor: pointer;
+        }
+        .social-icons i {
+            margin-right: 8px;
         }
     </style>
 </head>
 <body>
-    <img src="images/logo2.png" alt="Logo"> <!-- Image du logo -->
-    <p>Site en Construction</p> <!-- Texte affiché sous le logo -->
+    <img src="images/logo2.png" alt="Logo">
+    <p>Site en Construction</p>
+    <div class="content">
+        <p>Inscrivez-vous pour être notifié du lancement :</p>
+        <input type="email" placeholder="Entrez votre email">
+        <button>S'inscrire</button>
+        <p>Suivez-nous sur les réseaux sociaux :</p>
+        <div>
+            <a href="https://www.linkedin.com/company/blackswantech" class="social-icons"><i class="fab fa-linkedin-square"></i>Linkedin</a>
+            <a href="https://twitter.com" class="social-icons"><i class="fab fa-twitter-square"></i>Twitter</a>
+            <a href="https://instagram.com" class="social-icons"><i class="fab fa-instagram-square"></i>Instagram</a>
+        </div>
+    </div>
 </body>
 </html>

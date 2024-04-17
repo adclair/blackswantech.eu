@@ -441,13 +441,13 @@ input.input100 {
 
 /*---------------------------------------------*/
 .how-btn1 {
-  background-color: #3a5dff;
+  background-color: #f0f0f0;
   border-radius: 25px;
   padding: 0 20px;
 }
 
 .how-btn1:hover {
-  background-color: #f0f0f0;
+  background-color: #ddd;
   color: #fff;
 }
 

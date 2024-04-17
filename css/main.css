@@ -350,11 +350,11 @@ input.input100 {
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
+.bg0 {background-color: #101010;}
 
 /*---------------------------------------------*/
 .bg-g1 {
-  background: #101010; /* Nouvelle couleur de fond unie */
+  background: #101010; 
 }
 
 
